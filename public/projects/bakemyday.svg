@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1106" />
+      <stop offset="50%" stop-color="#36200a" />
+      <stop offset="100%" stop-color="#58310c" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bg6)" />
+
+  <!-- Java Application Window Representation -->
+  <g transform="translate(180, 140)">
+    <rect x="0" y="0" width="440" height="200" rx="10" fill="#241508" stroke="#f59e0b" stroke-width="1.5" />
+    <rect x="0" y="0" width="440" height="28" rx="10" fill="#3b240f" />
+    <circle cx="16" cy="14" r="4" fill="#ff5f56" />
+    <circle cx="28" cy="14" r="4" fill="#ffbd2e" />
+    <circle cx="40" cy="14" r="4" fill="#27c93f" />
+    <text x="220" y="18" font-family="system-ui, sans-serif" font-size="11" fill="#fde68a" text-anchor="middle">BakeMyDay • Enterprise Java POS &amp; Inventory Suite</text>
+
+    <!-- Table mock -->
+    <rect x="20" y="45" width="400" height="25" rx="4" fill="#4d2f14" />
+    <text x="40" y="61" font-family="monospace" font-size="10" fill="#fde68a">Item ID</text>
+    <text x="140" y="61" font-family="monospace" font-size="10" fill="#fde68a">Batch Stock</text>
+    <text x="260" y="61" font-family="monospace" font-size="10" fill="#fde68a">Price ($)</text>
+    <text x="360" y="61" font-family="monospace" font-size="10" fill="#fde68a">Status</text>
+
+    <rect x="20" y="78" width="400" height="22" rx="4" fill="#36200a" />
+    <text x="40" y="93" font-family="monospace" font-size="10" fill="#fed7aa">#BK-081</text>
+    <text x="140" y="93" font-family="monospace" font-size="10" fill="#fed7aa">Vanilla Torte</text>
+    <text x="260" y="93" font-family="monospace" font-size="10" fill="#fed7aa">$24.00</text>
+    <text x="360" y="93" font-family="monospace" font-size="10" fill="#4ade80">In Stock</text>
+
+    <rect x="20" y="106" width="400" height="22" rx="4" fill="#36200a" />
+    <text x="40" y="121" font-family="monospace" font-size="10" fill="#fed7aa">#BK-094</text>
+    <text x="140" y="121" font-family="monospace" font-size="10" fill="#fed7aa">Dark Truffle</text>
+    <text x="260" y="121" font-family="monospace" font-size="10" fill="#fed7aa">$32.50</text>
+    <text x="360" y="121" font-family="monospace" font-size="10" fill="#f59e0b">Low Stock</text>
+
+    <rect x="20" y="134" width="400" height="22" rx="4" fill="#36200a" />
+    <text x="40" y="149" font-family="monospace" font-size="10" fill="#fed7aa">#BK-102</text>
+    <text x="140" y="149" font-family="monospace" font-size="10" fill="#fed7aa">Fruit Brioche</text>
+    <text x="260" y="149" font-family="monospace" font-size="10" fill="#fed7aa">$18.00</text>
+    <text x="360" y="149" font-family="monospace" font-size="10" fill="#4ade80">In Stock</text>
+  </g>
+
+  <!-- Title Pill -->
+  <rect x="230" y="35" width="340" height="80" rx="16" fill="#36200a" fill-opacity="0.9" stroke="rgba(245,158,11,0.3)" stroke-width="1" />
+  <text x="400" y="70" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">BakeMyDay</text>
+  <text x="400" y="95" font-family="system-ui, sans-serif" font-size="13" fill="#f59e0b" text-anchor="middle">Java OOP Bakery Management System</text>
+
+  <!-- Tags -->
+  <rect x="130" y="375" width="160" height="34" rx="8" fill="#36200a" stroke="#f59e0b" stroke-opacity="0.5" />
+  <text x="210" y="397" font-family="system-ui, sans-serif" font-size="12" font-weight="500" fill="#f3f4f6" text-anchor="middle">Java OOP Architecture</text>
+
+  <rect x="320" y="375" width="160" height="34" rx="8" fill="#36200a" stroke="#fbbf24" stroke-opacity="0.5" />
+  <text x="400" y="397" font-family="system-ui, sans-serif" font-size="12" font-weight="500" fill="#f3f4f6" text-anchor="middle">Inventory &amp; Billing</text>
+
+  <rect x="510" y="375" width="160" height="34" rx="8" fill="#36200a" stroke="#f59e0b" stroke-opacity="0.5" />
+  <text x="590" y="397" font-family="system-ui, sans-serif" font-size="12" font-weight="500" fill="#f3f4f6" text-anchor="middle">Database Records</text>
+</svg>

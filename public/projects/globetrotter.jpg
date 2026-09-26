@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132b" />
+      <stop offset="50%" stop-color="#1c2541" />
+      <stop offset="100%" stop-color="#3a86ff" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="100%" stop-color="#3a86ff" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" fill="url(#bg)" />
+  <g opacity="0.15">
+    <circle cx="400" cy="225" r="180" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="6,6" />
+    <circle cx="400" cy="225" r="120" fill="none" stroke="#00f5d4" stroke-width="1.5" />
+    <circle cx="400" cy="225" r="60" fill="none" stroke="#3a86ff" stroke-width="1" />
+    <path d="M 100,225 L 700,225 M 400,50 L 400,400" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="4,4" />
+  </g>
+
+  <!-- Flight Path Curve -->
+  <path d="M 180,310 C 260,140 520,120 620,290" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" filter="url(#glow)" />
+  
+  <!-- Waypoints -->
+  <circle cx="180" cy="310" r="10" fill="#00f5d4" filter="url(#glow)" />
+  <circle cx="180" cy="310" r="4" fill="#0b132b" />
+  <circle cx="380" cy="165" r="8" fill="#ffffff" filter="url(#glow)" />
+  <circle cx="380" cy="165" r="3" fill="#3a86ff" />
+  <circle cx="620" cy="290" r="10" fill="#3a86ff" filter="url(#glow)" />
+  <circle cx="620" cy="290" r="4" fill="#ffffff" />
+
+  <!-- Card Overlay -->
+  <rect x="230" y="80" width="340" height="120" rx="16" fill="#0b132b" fill-opacity="0.85" stroke="#ffffff" stroke-opacity="0.15" />
+  <text x="400" y="125" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">GlobeTrotter AI</text>
+  <text x="400" y="155" font-family="system-ui, sans-serif" font-size="14" fill="#00f5d4" text-anchor="middle">Smart Multi-City Itinerary Engine • 24h Odoo Hackathon</text>
+
+  <!-- Floating Tags -->
+  <rect x="120" y="340" width="130" height="34" rx="8" fill="#1c2541" stroke="#00f5d4" stroke-opacity="0.4" />
+  <text x="185" y="362" font-family="system-ui, sans-serif" font-size="12" fill="#e2e8f0" text-anchor="middle">Route Planner</text>
+
+  <rect x="340" y="350" width="130" height="34" rx="8" fill="#1c2541" stroke="#3a86ff" stroke-opacity="0.4" />
+  <text x="405" y="372" font-family="system-ui, sans-serif" font-size="12" fill="#e2e8f0" text-anchor="middle">Budget Splitter</text>
+
+  <rect x="560" y="340" width="130" height="34" rx="8" fill="#1c2541" stroke="#00f5d4" stroke-opacity="0.4" />
+  <text x="625" y="362" font-family="system-ui, sans-serif" font-size="12" fill="#e2e8f0" text-anchor="middle">Live Currency</text>
+</svg>

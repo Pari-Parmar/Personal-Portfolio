@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050e14" />
+      <stop offset="50%" stop-color="#081c24" />
+      <stop offset="100%" stop-color="#0f3443" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bg3)" />
+
+  <!-- Radar / Scanner HUD Rings -->
+  <g opacity="0.3">
+    <circle cx="400" cy="225" r="160" fill="none" stroke="#00f5d4" stroke-width="1" stroke-dasharray="8,6" />
+    <circle cx="400" cy="225" r="110" fill="none" stroke="#00f5d4" stroke-width="1.5" />
+    <circle cx="400" cy="225" r="60" fill="none" stroke="#34d399" stroke-width="1" />
+    <line x1="240" y1="225" x2="560" y2="225" stroke="#00f5d4" stroke-width="1" stroke-dasharray="4,4" />
+    <line x1="400" y1="65" x2="400" y2="385" stroke="#00f5d4" stroke-width="1" stroke-dasharray="4,4" />
+  </g>
+
+  <!-- Bounding Boxes (YOLOv8 Detection) -->
+  <!-- Target 1: Vehicle -->
+  <g transform="translate(180, 160)">
+    <rect x="0" y="0" width="160" height="110" rx="4" fill="none" stroke="#00f5d4" stroke-width="2" stroke-dasharray="6,3" />
+    <path d="M 0,15 L 0,0 L 15,0" fill="none" stroke="#00f5d4" stroke-width="3" />
+    <path d="M 145,0 L 160,0 L 160,15" fill="none" stroke="#00f5d4" stroke-width="3" />
+    <path d="M 0,95 L 0,110 L 15,110" fill="none" stroke="#00f5d4" stroke-width="3" />
+    <path d="M 145,110 L 160,110 L 160,95" fill="none" stroke="#00f5d4" stroke-width="3" />
+    <rect x="0" y="-22" width="110" height="20" fill="#00f5d4" />
+    <text x="55" y="-8" font-family="monospace" font-size="10" font-weight="700" fill="#050e14" text-anchor="middle">ANPR: GJ-06-7241</text>
+  </g>
+
+  <!-- Target 2: Person Track -->
+  <g transform="translate(460, 175)">
+    <rect x="0" y="0" width="90" height="130" rx="4" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="6,3" />
+    <path d="M 0,15 L 0,0 L 15,0" fill="none" stroke="#f59e0b" stroke-width="3" />
+    <path d="M 75,0 L 90,0 L 90,15" fill="none" stroke="#f59e0b" stroke-width="3" />
+    <path d="M 0,115 L 0,130 L 15,130" fill="none" stroke="#f59e0b" stroke-width="3" />
+    <path d="M 75,130 L 90,130 L 90,115" fill="none" stroke="#f59e0b" stroke-width="3" />
+    <rect x="0" y="-22" width="85" height="20" fill="#f59e0b" />
+    <text x="42" y="-8" font-family="monospace" font-size="10" font-weight="700" fill="#050e14" text-anchor="middle">Person [98.4%]</text>
+  </g>
+
+  <!-- UI Overlay -->
+  <rect x="210" y="45" width="380" height="85" rx="16" fill="#081c24" fill-opacity="0.9" stroke="rgba(0,245,212,0.3)" stroke-width="1" />
+  <text x="400" y="80" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">SentinelGrid AI</text>
+  <text x="400" y="105" font-family="system-ui, sans-serif" font-size="13" fill="#00f5d4" text-anchor="middle">Autonomous CCTV Surveillance • 6th Rank TetraTHON 2026</text>
+
+  <!-- Bottom Pills -->
+  <rect x="130" y="360" width="150" height="34" rx="8" fill="#081c24" stroke="#00f5d4" stroke-opacity="0.5" />
+  <text x="205" y="382" font-family="system-ui, sans-serif" font-size="12" font-weight="500" fill="#e2e8f0" text-anchor="middle">YOLOv8 + ByteTrack</text>
+
+  <rect x="320" y="360" width="160" height="34" rx="8" fill="#081c24" stroke="#34d399" stroke-opacity="0.5" />
+  <text x="400" y="382" font-family="system-ui, sans-serif" font-size="12" font-weight="500" fill="#e2e8f0" text-anchor="middle">Real-time ANPR OCR</text>
+
+  <rect x="520" y="360" width="150" height="34" rx="8" fill="#081c24" stroke="#f59e0b" stroke-opacity="0.5" />
+  <text x="595" y="382" font-family="system-ui, sans-serif" font-size="12" font-weight="500" fill="#e2e8f0" text-anchor="middle">GIS Heatmap Alerts</text>
+</svg>

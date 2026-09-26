@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="50%" stop-color="#1f2937" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="glowG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#00f5d4" />
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbd38d" />
+      <stop offset="100%" stop-color="#f6ad55" />
+    </linearGradient>
+    <linearGradient id="suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle with neon border -->
+  <circle cx="200" cy="200" r="190" fill="url(#bgGrad)" stroke="url(#glowG)" stroke-width="4" />
+  <circle cx="200" cy="200" r="175" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2" stroke-dasharray="6,6" />
+
+  <!-- Avatar Silhouette / Portrait Art -->
+  <g id="avatar">
+    <!-- Body/Shoulders -->
+    <path d="M 90,360 C 90,280 140,260 200,260 C 260,260 310,280 310,360 Z" fill="url(#suit)" stroke="rgba(99,102,241,0.5)" stroke-width="2" />
+    <!-- Collar / Inner Top -->
+    <path d="M 160,260 L 200,310 L 240,260 Z" fill="#ffffff" />
+    <path d="M 180,260 L 200,290 L 220,260 Z" fill="url(#skin)" />
+
+    <!-- Neck -->
+    <rect x="178" y="210" width="44" height="60" rx="8" fill="url(#skin)" />
+
+    <!-- Hair Back -->
+    <path d="M 120,170 C 120,80 280,80 280,170 C 280,260 260,280 260,280 L 140,280 C 140,280 120,260 120,170 Z" fill="#18181b" />
+
+    <!-- Head / Face -->
+    <ellipse cx="200" cy="180" rx="55" ry="65" fill="url(#skin)" />
+
+    <!-- Hair Front / Style -->
+    <path d="M 140,160 C 145,110 200,105 255,120 C 265,150 255,190 255,190 C 255,190 230,135 190,135 C 150,135 142,165 140,160 Z" fill="#09090b" />
+    <path d="M 135,160 C 135,210 145,260 145,260 C 145,260 135,210 135,170 Z" fill="#09090b" />
+    <path d="M 265,160 C 265,210 255,260 255,260 C 255,260 265,210 265,170 Z" fill="#09090b" />
+
+    <!-- Glasses Frame -->
+    <rect x="155" y="160" width="38" height="26" rx="6" fill="none" stroke="#6366f1" stroke-width="2.5" />
+    <rect x="207" y="160" width="38" height="26" rx="6" fill="none" stroke="#6366f1" stroke-width="2.5" />
+    <line x1="193" y1="172" x2="207" y2="172" stroke="#6366f1" stroke-width="2.5" />
+    <line x1="145" y1="168" x2="155" y2="170" stroke="#6366f1" stroke-width="2" />
+    <line x1="245" y1="170" x2="255" y2="168" stroke="#6366f1" stroke-width="2" />
+
+    <!-- Eyes inside glasses -->
+    <circle cx="174" cy="173" r="4.5" fill="#1e1b4b" />
+    <circle cx="176" cy="171" r="1.5" fill="#ffffff" />
+    <circle cx="226" cy="173" r="4.5" fill="#1e1b4b" />
+    <circle cx="228" cy="171" r="1.5" fill="#ffffff" />
+
+    <!-- Smile -->
+    <path d="M 188,215 Q 200,225 212,215" fill="none" stroke="#c05621" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Glowing Code Badge / Star Icon -->
+  <g transform="translate(290, 60)">
+    <circle cx="24" cy="24" r="24" fill="#00f5d4" opacity="0.15" />
+    <circle cx="24" cy="24" r="18" fill="#111827" stroke="#00f5d4" stroke-width="2" />
+    <text x="24" y="29" font-family="monospace" font-size="14" font-weight="700" fill="#00f5d4" text-anchor="middle">&lt;/&gt;</text>
+  </g>
+
+  <g transform="translate(60, 270)">
+    <circle cx="20" cy="20" r="20" fill="#6366f1" opacity="0.15" />
+    <circle cx="20" cy="20" r="16" fill="#111827" stroke="#6366f1" stroke-width="2" />
+    <text x="20" y="25" font-family="monospace" font-size="12" font-weight="700" fill="#6366f1" text-anchor="middle">AI</text>
+  </g>
+</svg>

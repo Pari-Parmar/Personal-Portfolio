@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14081c" />
+      <stop offset="50%" stop-color="#2a0845" />
+      <stop offset="100%" stop-color="#6441a5" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bg4)" />
+
+  <!-- E-commerce Browser Wireframe -->
+  <g transform="translate(160, 140)">
+    <!-- Browser window -->
+    <rect x="0" y="0" width="480" height="200" rx="10" fill="#1b1226" stroke="#9d4edd" stroke-width="1.5" />
+    <!-- Window header -->
+    <rect x="0" y="0" width="480" height="28" rx="10" fill="#2b1b3d" />
+    <circle cx="16" cy="14" r="4" fill="#ff5f56" />
+    <circle cx="28" cy="14" r="4" fill="#ffbd2e" />
+    <circle cx="40" cy="14" r="4" fill="#27c93f" />
+    <rect x="70" y="7" width="200" height="14" rx="4" fill="#1b1226" opacity="0.6" />
+
+    <!-- Product Cards mock inside browser -->
+    <rect x="20" y="44" width="130" height="135" rx="8" fill="#2b1b3d" stroke="rgba(255,255,255,0.1)" />
+    <rect x="30" y="54" width="110" height="65" rx="4" fill="#43285e" />
+    <rect x="30" y="127" width="70" height="8" rx="2" fill="#e0aaff" />
+    <rect x="30" y="142" width="45" height="10" rx="2" fill="#c77dff" />
+    <circle cx="125" cy="147" r="10" fill="#ff007f" />
+
+    <rect x="175" y="44" width="130" height="135" rx="8" fill="#2b1b3d" stroke="rgba(255,255,255,0.1)" />
+    <rect x="185" y="54" width="110" height="65" rx="4" fill="#43285e" />
+    <rect x="185" y="127" width="70" height="8" rx="2" fill="#e0aaff" />
+    <rect x="185" y="142" width="45" height="10" rx="2" fill="#c77dff" />
+    <circle cx="280" cy="147" r="10" fill="#ff007f" />
+
+    <rect x="330" y="44" width="130" height="135" rx="8" fill="#2b1b3d" stroke="rgba(255,255,255,0.1)" />
+    <rect x="340" y="54" width="110" height="65" rx="4" fill="#43285e" />
+    <rect x="340" y="127" width="70" height="8" rx="2" fill="#e0aaff" />
+    <rect x="340" y="142" width="45" height="10" rx="2" fill="#c77dff" />
+    <circle cx="435" cy="147" r="10" fill="#ff007f" />
+  </g>
+
+  <!-- Title Pill -->
+  <rect x="230" y="40" width="340" height="80" rx="16" fill="#1b1226" fill-opacity="0.9" stroke="rgba(224,170,255,0.3)" stroke-width="1" />
+  <text x="400" y="75" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Katha Store</text>
+  <text x="400" y="100" font-family="system-ui, sans-serif" font-size="13" fill="#e0aaff" text-anchor="middle">Responsive E-Commerce Platform • Waterfall SDLC</text>
+
+  <!-- Tags -->
+  <rect x="140" y="370" width="150" height="34" rx="8" fill="#1b1226" stroke="#c77dff" stroke-opacity="0.5" />
+  <text x="215" y="392" font-family="system-ui, sans-serif" font-size="12" font-weight="500" fill="#f3f4f6" text-anchor="middle">HTML5 & CSS3 Flexbox</text>
+
+  <rect x="330" y="370" width="140" height="34" rx="8" fill="#1b1226" stroke="#ff007f" stroke-opacity="0.5" />
+  <text x="400" y="392" font-family="system-ui, sans-serif" font-size="12" font-weight="500" fill="#f3f4f6" text-anchor="middle">Dynamic Cart Flow</text>
+
+  <rect x="510" y="370" width="150" height="34" rx="8" fill="#1b1226" stroke="#9d4edd" stroke-opacity="0.5" />
+  <text x="585" y="392" font-family="system-ui, sans-serif" font-size="12" font-weight="500" fill="#f3f4f6" text-anchor="middle">Waterfall Model</text>
+</svg>
